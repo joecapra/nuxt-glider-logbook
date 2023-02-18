@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__nuxt {
+	@apply relative w-full min-h-full flex flex-col;
+}
+
+body {
+	background-color: rgb(238, 238, 238);
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	position: relative;
+}
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.basecard--full {
+	@apply container mx-auto w-full p-4 bg-gray-50 rounded-xl border flex flex-col items-center shadow-lg md:max-w-screen-lg sm:p-10;
+}
+.basecard {
+	@apply container mx-auto w-11/12 p-4 bg-gray-50 rounded-xl flex flex-col items-center shadow-lg md:max-w-screen-lg sm:p-10;
+}
+.basecard-row {
+	@apply container mx-auto w-3/4 p-10 bg-gray-50 rounded-xl flex  items-center shadow-lg;
+}
+.basecard--fit {
+	@apply min-w-fit p-12 bg-gray-50 rounded-xl;
+}
+.container--full {
+	@apply w-full grow flex items-center py-6;
+}
+.container--full--np {
+	@apply w-full flex grow justify-center items-center;
+}
+.baseinputfield {
+	@apply w-full border px-4 py-2 rounded text-slate-600;
+}
+.baseinputlabel {
+	@apply block text-sm text-slate-600;
+}
+/* .flightlist__cols {
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 80px 176px;
+} */
+
+.auth__validation-error-msg {
+	@apply text-center text-sm text-red-600;
+}
+
+.form__validation-error-msg {
+	@apply text-center text-red-600 text-xs  absolute -bottom-4;
+}

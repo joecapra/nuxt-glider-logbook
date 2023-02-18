@@ -1,0 +1,25 @@
+TODO:
+x add flight form reset pub/private toggle
+x notification by add flight button that not all fields are filled out
+x clear dropzone after add flight
+x when on a second or 3rd page number, need to (currentPage?) reset back to 0 when changing items per page
+x save sort by to state
+x add ability to set a default aircraft and departure airport
+x see if we can style some of the IGC display elements
+x add thing in profile to default profile aircraft and home airport in the add flight form
+x if use has no flights we need to show some hero airport map
+x Add alert or something after profile has been updated
+x add tailnumber to flight
+x add list of user aircraft and common airports which will populate dropdown in add flight
+x See what we can do about api calls for flight map in flightlist. 
+    on initial creation store lat/long in flight so we dont have to
+    hit the api everytime to look up lat/long then display map
+x Maybe add comment, release alt, max height to flight form
+x do public/private flights
+x make pbulic flight sharable
+x split out sort order buttons to component
+x add "are you sure you want to delete your account" modal thing
+x when no flights, the stats say ": 0 Flights". fix that.
+x add something that says NO FLIGHTS YET or whatever in dashboard. Use a blank flight list row template
+x Close add flight form after submission
+x change page title when viewing flight, dashboard, and profile

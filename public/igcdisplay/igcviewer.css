@@ -1,0 +1,69 @@
+html {
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+#map {
+	width: 100%;
+	height: calc(100% - 115px);
+	margin-bottom: 15px;
+}
+
+.slider {
+	display: flex;
+	/* height: 100px; */
+}
+
+.slider button {
+	width: 2em;
+	vertical-align: top;
+}
+
+.slider__range {
+	width: 100%;
+	flex-grow: 1;
+	padding-bottom: 0px; /* Default padding is huge in Internet Explorer.*/
+}
+
+#mapWrapper,
+#barogram {
+	max-height: 110vw;
+	/* margin-top: 30px;
+	  margin-bottom: 30px; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mapWrapper {
+	height: 600px;
+	width: 100%;
+}
+
+#barogram {
+	cursor: crosshair;
+	padding: 0px;
+	display: block;
+	left: 0;
+	width: 100%;
+	height: 200px;
+}
+
+#errorMessage {
+	font-weight: bold;
+	color: Red;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#igcFileDisplay {
+	display: none;
+}
+
+table#headerInfo {
+	border-spacing: 1em 0;
+}
+
+#headerInfo th {
+	text-align: left;
+	font-weight: bold;
+}
